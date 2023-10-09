@@ -250,7 +250,7 @@ def run_mnist(flags_obj):
         })
         mnist_classifier.export_savedmodel(flags_obj.export_dir, input_fn,
                                            strip_default_attrs=True)
-        tf.logging.debug('Model Exported')
+        tf.logging.debug('Model Exported!')
 
 
 def main(_):
